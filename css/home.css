@@ -141,7 +141,7 @@ video {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #2b3559;
     color: #fff;
     text-decoration: none;
     border-radius: 20px;
@@ -151,6 +151,6 @@ video {
 }
 
 .btn:hover {
-    background-color: #151515
+    background-color: #526aa3;
 }
 

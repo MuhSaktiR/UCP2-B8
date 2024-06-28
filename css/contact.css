@@ -47,7 +47,7 @@
 }
 
 .contact-content form button {
-    background-color: #333;
+    background-color: #2b3559;
     font-size: 30px;
     color: #fff;
     padding: 10px 50px 10px 50px;
@@ -57,7 +57,7 @@
 }
 
 .contact-content form button:hover {
-    background-color: #1b1a1a;
+    background-color: #526aa3;
 }
 
 .additional-info {
@@ -103,6 +103,6 @@
 }
 
 .additional-info .info-text a:hover {
-    color: #ffc107;
+    color: #526aa3;
 }
 
