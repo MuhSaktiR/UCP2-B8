@@ -10,7 +10,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #2b3559;
     position: -webkit-sticky; /* For Safari */
     position: sticky;
     top: 0;
@@ -43,7 +43,7 @@ body {
 
 /* Footer Styles */
 footer {
-    background-color: #333;
+    background-color: #2b3559;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -122,16 +122,16 @@ footer {
 .nav-links a:hover,
 .footer-links a:hover,
 .footer-logo a:hover {
-    color: #ffc107;
+    color: #526aa3;
 }
 
 /* Hover effect social media icons */
 .social-media a:hover {
-    color: #ffc107;
+    color: #526aa3;
 }
 
 .footer-contact a:hover {
-    color: #ffc107;
+    color: #526aa3;
 }
 
 .navbar .logo img:hover {
