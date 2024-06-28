@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo img {
+    height: 80px;
+    margin-left: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 40px;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+.footer-logo {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-logo img {
+    height: 80px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    flex: 1;
+    margin-top: 10px;
+}
+
+.footer-links li {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-contact {
+    text-align: right;
+    flex: 1;
+    margin-top: 15px;
+}
+
+.footer-contact a {
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.social-media {
+    display: flex;
+    margin-top: 15px;
+    justify-content: flex-end;
+}
+
+.social-media a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 40px;
+}
+
+.nav-links a.active {
+    border-bottom: 2px solid #fff;
+}
+
+/* Hover effect links */
+.nav-links a:hover,
+.footer-links a:hover,
+.footer-logo a:hover {
+    color: #ffc107;
+}
+
+/* Hover effect social media icons */
+.social-media a:hover {
+    color: #ffc107;
+}
+
+.footer-contact a:hover {
+    color: #ffc107;
+}
+
+.navbar .logo img:hover {
+    transform: scale(1.4);
+}
+
+.footer-logo img:hover {
+    transform: scale(1.4);
+}

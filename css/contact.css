@@ -1,0 +1,108 @@
+.contact-content {
+    background-image: url('/Gambar/backgroundcontact.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.contact-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.contact-content p {
+    font-size: 18px;
+}
+
+.background-image {
+    color: #000000;
+}
+
+.contact-content form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px 40px 40px 20px;
+    border-radius: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+}
+
+.contact-content form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.contact-content form input,
+.contact-content form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-content form button {
+    background-color: #333;
+    font-size: 30px;
+    color: #fff;
+    padding: 10px 50px 10px 50px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.contact-content form button:hover {
+    background-color: #1b1a1a;
+}
+
+.additional-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 30px;
+    margin-left: 60px;
+    margin-top: 80px;
+}
+
+.contact-details {
+    flex-basis: 50%;
+}
+
+.map {
+    flex-basis: 50%;
+}
+
+.additional-info h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: -8px;
+}
+
+.additional-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.additional-info .info-text a {
+    display: block;
+    margin-bottom: 10px;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s;
+    margin-left: 20px;
+}
+
+.additional-info .info-text a i {
+    margin-right: 10px;
+}
+
+.additional-info .info-text a:hover {
+    color: #ffc107;
+}
+

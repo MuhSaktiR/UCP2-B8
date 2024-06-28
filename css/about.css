@@ -1,0 +1,206 @@
+/* About Page Styles */
+.about-background {
+    background-image: url('/Gambar/universe.jpg');
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 100px;
+}
+
+.about-background {
+    padding: 50px;
+    text-align: center;
+}
+
+.about-background h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.about-content {
+    padding: 50px;
+    text-align: center;
+}
+
+.about-content img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contentabout1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.product p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.product img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.modal-content img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.modal-content p {
+    text-align: justify;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.product h2 {
+    font-size: 24px;
+}
+
+.more-info {
+    padding: 50px 20px;
+    background-color: #fff;
+    margin-top: -80px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+}
+
+.more-info p {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.info-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin-left: 30px;
+    margin-right: -30px;
+}
+
+.info-item {
+    width: calc(50% - 20px);
+    margin: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.info-item a {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+    align-items: left;
+}
+
+.info-item p {
+    font-size: 16px;
+    color: #666;
+    text-align: left;
+    
+}
+
+.info-image {
+    flex: 1;
+    text-align: center;
+}
+
+.info-image img {
+    max-width: 75%;
+    border-radius: 5px;
+}
+
+/* Content 2 */
+.contentabout2 {
+    text-align: left;
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+
+.contentabout2 h2 {
+    font-size: 40px;
+}
+
+.contentabout2 p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: black;
+    margin-bottom: 20px;
+    text-align: justify;
+}

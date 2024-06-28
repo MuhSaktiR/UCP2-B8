@@ -1,0 +1,156 @@
+.video-container {
+    position: relative;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.overlay h1 {
+    font-size: 48px;
+    margin: 0 0 20px 0;
+}
+
+.overlay .btn {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.overlay .btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Content 1 */
+.contenthome1 {
+    margin-top: 100px;
+    background-color: white;
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.image-container {
+    flex: 1;
+    max-width: 400px; 
+    margin-right: -400px; 
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.text-container {
+    flex: 1;
+    max-width: 400px;
+    text-align: left;
+}
+
+.contenthome1 h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    margin-top: -10px;
+}
+
+.contenthome1 p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    text-align: justify;
+}
+
+/* Content 2 */
+.contenthome2 {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contenthome2 h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: calc(25%);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    text-align: justify;
+}
+
+/* Content 3 */
+.contenthome3 {
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 50px;
+}
+
+.contenthome3 p {
+    font-size: 30px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    font-size: 25px;
+}
+
+.btn:hover {
+    background-color: #151515
+}
+
