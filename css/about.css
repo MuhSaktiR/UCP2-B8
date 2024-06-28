@@ -1,6 +1,6 @@
 /* About Page Styles */
 .about-background {
-    background-image: url('../Gambar/universe.jpg');
+    background-image: url('/UCP2PRAKTIKUM/Gambar/universe.jpg');
     height: 350px;
     background-size: cover;
     background-position: center;
