@@ -1,32 +1,29 @@
 /* About Page Styles */
 .about-background {
-    position: relative;
-    height: 400px;
-    overflow: hidden;
+    background-image: url('../Gambar/universe.jpg');
+    height: 350px;
+    background-size: cover;
+    background-position: center;
     display: flex;
-    justify-content: flex-start; /* Memulai penempatan konten dari kiri */
-    align-items: center;
-    text-align: left; /* Mengatur teks ke kiri */
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
     color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 100px;
+}
+
+.about-background {
+    padding: 50px;
+    text-align: center;
 }
 
 .about-background h1 {
     font-size: 48px;
     margin-bottom: 20px;
-    z-index: 1;
-    padding: 20px;
+    text-align: left;
 }
-
-.about-background img {
-    width: 100%;
-    height: 100%; /* Menggunakan tinggi 100% untuk mengisi seluruh area parent */
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
 
 .about-content {
     padding: 50px;
